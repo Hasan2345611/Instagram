@@ -18,7 +18,7 @@ class Engine(object):
         self.resume = False
         self.is_alive = True
         self.threads = threads
-        self.username = username
+        self.username = cereniyidemir9
         self.passlist_path = passlist_path
         self.display = Display(is_color=is_color)
 
@@ -126,7 +126,7 @@ if __name__ == '__main__':
 
     arugments = args()
     mode = arugments.mode
-    username = arugments.username
+    username = cereniyidemir9
     passlist = arugments.passlist
     is_color = True if not arugments.color else False
     Engine(username, modes[mode], passlist, is_color).start()
